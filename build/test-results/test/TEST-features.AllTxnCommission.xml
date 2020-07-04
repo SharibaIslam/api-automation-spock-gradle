@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="features.AllTxnCommission" tests="36" skipped="0" failures="8" errors="0" timestamp="2020-02-12T09:02:22" hostname="DESKTOP-1CKN538" time="6.806">
+  <properties/>
+  <testcase name="Agent/Customer Assisted Withdraw Commission with General withdraw amount=1000" classname="features.AllTxnCommission" time="2.292"/>
+  <testcase name="Agent/Customer Assisted Withdraw Commission with General withdraw amount=666" classname="features.AllTxnCommission" time="0.115"/>
+  <testcase name="Agent/Customer Assisted Withdraw Commission with Minimum withdraw amount=80" classname="features.AllTxnCommission" time="0.103"/>
+  <testcase name="Agent/Customer Assisted Withdraw Commission with Minimum invalid withdraw amount=25" classname="features.AllTxnCommission" time="0.508">
+    <failure message="Condition not satisfied:&#10;&#10;actualServiceCharge==expectedCom&#10;|                  | |&#10;5.0                | 0&#10;                   false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+actualServiceCharge==expectedCom
+|                  | |
+5.0                | 0
+                   false
+
+	at features.AllTxnCommission.1. Agent/Customer Assisted Withdraw Commission(AllTxnCommission.groovy:59)
+</failure>
+  </testcase>
+  <testcase name="Agent/Customer Assisted Withdraw Commission with Max withdraw amount=8000" classname="features.AllTxnCommission" time="0.118"/>
+  <testcase name="Agent/Customer Assisted Withdraw Commission with Negative case amount=999" classname="features.AllTxnCommission" time="0.116">
+    <failure message="Condition not satisfied:&#10;&#10;actualServiceCharge==expectedCom&#10;|                  | |&#10;17.982             | 14&#10;                   false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+actualServiceCharge==expectedCom
+|                  | |
+17.982             | 14
+                   false
+
+	at features.AllTxnCommission.1. Agent/Customer Assisted Withdraw Commission(AllTxnCommission.groovy:59)
+</failure>
+  </testcase>
+  <testcase name="Disbursement Withdraw Commission with disburse withdraw amount=1000 and rate=1%" classname="features.AllTxnCommission" time="0.16"/>
+  <testcase name="Disbursement Withdraw Commission with disburse withdraw amount=987 and rate=1%" classname="features.AllTxnCommission" time="0.13"/>
+  <testcase name="Disbursement Withdraw Commission with disburse combined withdraw(general+disburse) amount=8745 and " classname="features.AllTxnCommission" time="0.121">
+    <failure message="Condition not satisfied:&#10;&#10;actualServiceCharge==expectedCom&#10;|                  | |&#10;57.45              | 134.5672224&#10;                   false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+actualServiceCharge==expectedCom
+|                  | |
+57.45              | 134.5672224
+                   false
+
+	at features.AllTxnCommission.2. Disbursement Withdraw Commission(AllTxnCommission.groovy:119)
+</failure>
+  </testcase>
+  <testcase name="Disbursement Withdraw Commission with disburse minimum withdraw amount=45 and " classname="features.AllTxnCommission" time="0.131"/>
+  <testcase name="Disbursement Withdraw Commission with Set max disburse withdraw fee=20 and rate=1% and withdraw 3000 " classname="features.AllTxnCommission" time="0.118">
+    <failure message="Condition not satisfied:&#10;&#10;actualServiceCharge==expectedCom&#10;|                  | |&#10;30.0               | 20&#10;                   false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+actualServiceCharge==expectedCom
+|                  | |
+30.0               | 20
+                   false
+
+	at features.AllTxnCommission.2. Disbursement Withdraw Commission(AllTxnCommission.groovy:119)
+</failure>
+  </testcase>
+  <testcase name="PESP Disbursement Withdraw Commission with PESP disburse withdraw amount=1000" classname="features.AllTxnCommission" time="0.1"/>
+  <testcase name="PESP Disbursement Withdraw Commission with PESP disburse withdraw amount=300" classname="features.AllTxnCommission" time="0.109"/>
+  <testcase name="PESP Disbursement Withdraw Commission with PESP disburse combined withdraw(general+disburse) amount=1600" classname="features.AllTxnCommission" time="0.089"/>
+  <testcase name="PESP Disbursement Withdraw Commission with PESP disburse min amount=1600" classname="features.AllTxnCommission" time="0.126"/>
+  <testcase name="Send Money Commission with Send money with negative case amount=5" classname="features.AllTxnCommission" time="0.033">
+    <failure message="Condition not satisfied:&#10;&#10;actualServiceCharge==expectedCom&#10;|                  | |&#10;4.0                | 0&#10;                   false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+actualServiceCharge==expectedCom
+|                  | |
+4.0                | 0
+                   false
+
+	at features.AllTxnCommission.4. Send Money Commission(AllTxnCommission.groovy:235)
+</failure>
+  </testcase>
+  <testcase name="Send Money Commission with Send money with negative case amount=450" classname="features.AllTxnCommission" time="0.021"/>
+  <testcase name="Send Money Commission with Send money with  amount=1600" classname="features.AllTxnCommission" time="0.021"/>
+  <testcase name="Agent Assisted Payment(fee from customer) Commission with payment with amount=19 and service charge from customer,min fee=4, service charge will be=4" classname="features.AllTxnCommission" time="0.104"/>
+  <testcase name="Agent Assisted Payment(fee from customer) Commission with payment with amount=380 and service charge from customer,min fee=4, service charge will be=4" classname="features.AllTxnCommission" time="0.091"/>
+  <testcase name="Agent Assisted Payment(fee from customer) Commission with Try to payment with amount=500,  and service charge from customer, rate=1%, service charge will be=5" classname="features.AllTxnCommission" time="0.115"/>
+  <testcase name="Agent Assisted Payment(fee from customer) Commission with Try to payment with amount=1500,  and service charge from customer, rate=1%, service charge will be=15" classname="features.AllTxnCommission" time="0.106"/>
+  <testcase name="Agent Assisted Payment(fee from customer) Commission with Try to payment with amount=3500,  and service charge from customer,max fee=30, service charge will be=30" classname="features.AllTxnCommission" time="0.108"/>
+  <testcase name="Agent Assisted Payment(fee from customer) Commission with Try to payment with amount=5500,  and service charge from customer, max fee=30,service charge will be=30" classname="features.AllTxnCommission" time="0.121"/>
+  <testcase name="Agent Assisted Payment(fee from merchant) Commission with payment with amount=380 and service charge from merchant, service charge will be=0 for customer" classname="features.AllTxnCommission" time="0.116">
+    <failure message="Condition not satisfied:&#10;&#10;actualServiceCharge==expectedCom&#10;|                  | |&#10;4.0                | 0&#10;                   false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+actualServiceCharge==expectedCom
+|                  | |
+4.0                | 0
+                   false
+
+	at features.AllTxnCommission.6. Agent Assisted Payment(fee from merchant)(AllTxnCommission.groovy:354)
+</failure>
+  </testcase>
+  <testcase name="Agent Assisted Payment(fee from merchant) Commission with payment with amount=1600 and service charge from merchant, service charge will be=0 for customer" classname="features.AllTxnCommission" time="0.119">
+    <failure message="Condition not satisfied:&#10;&#10;actualServiceCharge==expectedCom&#10;|                  | |&#10;16.0               | 0&#10;                   false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+actualServiceCharge==expectedCom
+|                  | |
+16.0               | 0
+                   false
+
+	at features.AllTxnCommission.6. Agent Assisted Payment(fee from merchant)(AllTxnCommission.groovy:354)
+</failure>
+  </testcase>
+  <testcase name="Agent Assisted Payment(fee from merchant) Commission with payment with amount=3500 and service charge from merchant, service charge will be=0 for customer" classname="features.AllTxnCommission" time="0.113">
+    <failure message="Condition not satisfied:&#10;&#10;actualServiceCharge==expectedCom&#10;|                  | |&#10;30.0               | 0&#10;                   false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+actualServiceCharge==expectedCom
+|                  | |
+30.0               | 0
+                   false
+
+	at features.AllTxnCommission.6. Agent Assisted Payment(fee from merchant)(AllTxnCommission.groovy:354)
+</failure>
+  </testcase>
+  <testcase name="Customer Assisted Payment(fee from customer) Commission with payment with amount=18 and service charge from customer,min fee=4, service charge will be=4" classname="features.AllTxnCommission" time="0.083"/>
+  <testcase name="Customer Assisted Payment(fee from customer) Commission with payment with amount=350 and service charge from customer,min fee=4, service charge will be=4" classname="features.AllTxnCommission" time="0.295"/>
+  <testcase name="Customer Assisted Payment(fee from customer) Commission with Try to payment with amount=550,  and service charge from customer, rate=1%, service charge will be=5.5" classname="features.AllTxnCommission" time="0.119"/>
+  <testcase name="Customer Assisted Payment(fee from customer) Commission with Try to payment with amount=1750,  and service charge from customer, rate=1%, service charge will be=15" classname="features.AllTxnCommission" time="0.134"/>
+  <testcase name="Customer Assisted Payment(fee from customer) Commission with Try to payment with amount=3500,  and service charge from customer,max fee=25, service charge will be=25" classname="features.AllTxnCommission" time="0.144"/>
+  <testcase name="Customer Assisted Payment(fee from customer) Commission with Try to payment with amount=5500,  and service charge from customer, max fee=25,service charge will be=25" classname="features.AllTxnCommission" time="0.113"/>
+  <testcase name="Customer Assisted Payment(fee from merchant) Commission with payment with amount=350 and service charge from merchant, service charge will be=0 for customer" classname="features.AllTxnCommission" time="0.111"/>
+  <testcase name="Customer Assisted Payment(fee from merchant) Commission with payment with amount=2200 and service charge from merchant, service charge will be=0 for customer" classname="features.AllTxnCommission" time="0.133"/>
+  <testcase name="Customer Assisted Payment(fee from merchant) Commission with payment with amount=3350 and service charge from merchant, service charge will be=0 for customer" classname="features.AllTxnCommission" time="0.15"/>
+  <system-out><![CDATA[Agent Assisted Withdraw Commission request: null
+Agent Assisted Withdraw Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 18.0
+}
+Agent Assisted Withdraw Commission request: null
+Agent Assisted Withdraw Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 11.988
+}
+Agent Assisted Withdraw Commission request: null
+Agent Assisted Withdraw Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 5.0
+}
+Agent Assisted Withdraw Commission request: null
+Agent Assisted Withdraw Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 5.0
+}
+Agent Assisted Withdraw Commission request: null
+Agent Assisted Withdraw Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 144.0
+}
+Agent Assisted Withdraw Commission request: null
+Agent Assisted Withdraw Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 17.982
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 10.0
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 9.87
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 57.45
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 0.45
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 30.0
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 0.0
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 0.0
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 0.0
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 0.0
+}
+Send Money Commission request: null
+Send Money Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 4.0
+}
+Send Money Commission request: null
+Send Money Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 4.0
+}
+Send Money Commission request: null
+Send Money Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 4.0
+}
+Agent Assisted Payment(fee from customer) request: null
+Agent Assisted Payment(fee from customer) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 4.0
+}
+Agent Assisted Payment(fee from customer) request: null
+Agent Assisted Payment(fee from customer) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 4.0
+}
+Agent Assisted Payment(fee from customer) request: null
+Agent Assisted Payment(fee from customer) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 5.0
+}
+Agent Assisted Payment(fee from customer) request: null
+Agent Assisted Payment(fee from customer) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 15.0
+}
+Agent Assisted Payment(fee from customer) request: null
+Agent Assisted Payment(fee from customer) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 30.0
+}
+Agent Assisted Payment(fee from customer) request: null
+Agent Assisted Payment(fee from customer) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 30.0
+}
+Agent Assisted Payment(fee from merchant) request: null
+Agent Assisted Payment(fee from merchant) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 4.0
+}
+Agent Assisted Payment(fee from merchant) request: null
+Agent Assisted Payment(fee from merchant) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 16.0
+}
+Agent Assisted Payment(fee from merchant) request: null
+Agent Assisted Payment(fee from merchant) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 30.0
+}
+Customer Assisted Payment(fee from customer) request: null
+Customer Assisted Payment(fee from customer) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 4.0
+}
+Customer Assisted Payment(fee from customer) request: null
+Customer Assisted Payment(fee from customer) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 4.0
+}
+Customer Assisted Payment(fee from customer) request: null
+Customer Assisted Payment(fee from customer) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 5.5
+}
+Customer Assisted Payment(fee from customer) request: null
+Customer Assisted Payment(fee from customer) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 17.5
+}
+Customer Assisted Payment(fee from customer) request: null
+Customer Assisted Payment(fee from customer) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 25.0
+}
+Customer Assisted Payment(fee from customer) request: null
+Customer Assisted Payment(fee from customer) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 25.0
+}
+Customer Assisted Payment(fee from merchant) request: null
+Customer Assisted Payment(fee from merchant) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 0.0
+}
+Customer Assisted Payment(fee from merchant) request: null
+Customer Assisted Payment(fee from merchant) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 0.0
+}
+Customer Assisted Payment(fee from merchant) request: null
+Customer Assisted Payment(fee from merchant) response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 0.0
+}
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

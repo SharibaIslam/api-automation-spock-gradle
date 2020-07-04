@@ -1,0 +1,50 @@
+{
+  "uid" : "411f7e3238c436c",
+  "name" : "Agent Assisted Payment(fee from merchant) Commission with payment with amount=3500 and service charge from merchant, service charge will be=0 for customer",
+  "fullName" : "features.AllTxnCommission.Agent Assisted Payment(fee from merchant) Commission with payment with amount=3500 and service charge from merchant, service charge will be=0 for customer",
+  "historyId" : "ee941e064a492b750b32507b3b92d323",
+  "time" : {
+    "start" : 1581498148157,
+    "stop" : 1581498148232,
+    "duration" : 75
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n30.0               | 0\n                   false\n",
+    "trace" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n30.0               | 0\n                   false\n\r\n\tat features.AllTxnCommission.6. Agent Assisted Payment(fee from merchant)(AllTxnCommission.groovy:354)\r\n",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Agent Assisted Payment(fee from merchant) Commission with payment with amount=3500 and service charge from merchant, service charge will be=0 for customer"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "10840@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="features.AllTxnRegression" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-12T06:07:56" hostname="DESKTOP-1CKN538" time="0.112">
+  <properties/>
+  <testcase name="1. Agent Assisted Withdraw Commission" classname="features.AllTxnRegression" time="0.112"/>
+  <system-out><![CDATA[Agent Assisted Withdraw Commission request: null
+Agent Assisted Withdraw Commission response: {
+    "status": "SUCCESS",
+    "description": null,
+    "refId": null,
+    "serviceFee": 5.0
+}
+5.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

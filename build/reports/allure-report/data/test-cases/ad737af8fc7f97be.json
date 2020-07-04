@@ -1,0 +1,42 @@
+{
+  "uid" : "ad737af8fc7f97be",
+  "name" : "Agent/Customer Assisted Withdraw Commission with Minimum withdraw amount=80",
+  "fullName" : "features.AllTxnCommission.Agent/Customer Assisted Withdraw Commission with Minimum withdraw amount=80",
+  "historyId" : "d371736a230682b4e0d16c35295548cc",
+  "time" : {
+    "start" : 1581486216132,
+    "stop" : 1581486216227,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Agent/Customer Assisted Withdraw Commission with Minimum withdraw amount=80"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "17468@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  }
+}

@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class features.AllTxnCommission</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class features.AllTxnCommission</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/features.html">features</a> &gt; AllTxnCommission</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">36</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">8</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">6.686s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">77%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Agent Assisted Payment(fee from merchant) Commission with payment with amount=1600 and service charge from merchant, service charge will be=0 for customer"></a>
+<h3 class="failures">Agent Assisted Payment(fee from merchant) Commission with payment with amount=1600 and service charge from merchant, service charge will be=0 for customer</h3>
+<span class="code">
+<pre>Condition not satisfied:
+
+actualServiceCharge==expectedCom
+|                  | |
+16.0               | 0
+                   false
+
+	at features.AllTxnCommission.6. Agent Assisted Payment(fee from merchant)(AllTxnCommission.groovy:354)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Agent Assisted Payment(fee from merchant) Commission with payment with amount=3500 and service charge from merchant, service charge will be=0 for customer"></a>
+<h3 class="failures">Agent Assisted Payment(fee from merchant) Commission with payment with amount=3500 and service charge from merchant, service charge will be=0 for customer</h3>
+<span class="code">
+<pre>Condition not satisfied:
+
+actualServiceCharge==expectedCom
+|                  | |
+30.0               | 0
+                   false
+
+	at features.AllTxnCommission.6. Agent Assisted Payment(fee from merchant)(AllTxnCommission.groovy:354)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Agent Assisted Payment(fee from merchant) Commission with payment with amount=380 and service charge from merchant, service charge will be=0 for customer"></a>
+<h3 class="failures">Agent Assisted Payment(fee from merchant) Commission with payment with amount=380 and service charge from merchant, service charge will be=0 for customer</h3>
+<span class="code">
+<pre>Condition not satisfied:
+
+actualServiceCharge==expectedCom
+|                  | |
+4.0                | 0
+                   false
+
+	at features.AllTxnCommission.6. Agent Assisted Payment(fee from merchant)(AllTxnCommission.groovy:354)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Agent/Customer Assisted Withdraw Commission with Minimum invalid withdraw amount=25"></a>
+<h3 class="failures">Agent/Customer Assisted Withdraw Commission with Minimum invalid withdraw amount=25</h3>
+<span class="code">
+<pre>Condition not satisfied:
+
+actualServiceCharge==expectedCom
+|                  | |
+5.0                | 0
+                   false
+
+	at features.AllTxnCommission.1. Agent/Customer Assisted Withdraw Commission(AllTxnCommission.groovy:59)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Agent/Customer Assisted Withdraw Commission with Negative case amount=999"></a>
+<h3 class="failures">Agent/Customer Assisted Withdraw Commission with Negative case amount=999</h3>
+<span class="code">
+<pre>Condition not satisfied:
+
+actualServiceCharge==expectedCom
+|                  | |
+17.982             | 14
+                   false
+
+	at features.AllTxnCommission.1. Agent/Customer Assisted Withdraw Commission(AllTxnCommission.groovy:59)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Disbursement Withdraw Commission with Set max disburse withdraw fee=20 and rate=1% and withdraw 3000 "></a>
+<h3 class="failures">Disbursement Withdraw Commission with Set max disburse withdraw fee=20 and rate=1% and withdraw 3000 </h3>
+<span class="code">
+<pre>Condition not satisfied:
+
+actualServiceCharge==expectedCom
+|                  | |
+30.0               | 20
+                   false
+
+	at features.AllTxnCommission.2. Disbursement Withdraw Commission(AllTxnCommission.groovy:119)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Disbursement Withdraw Commission with disburse combined withdraw(general+disburse) amount=8745 and "></a>
+<h3 class="failures">Disbursement Withdraw Commission with disburse combined withdraw(general+disburse) amount=8745 and </h3>
+<span class="code">
+<pre>Condition not satisfied:
+
+actualServiceCharge==expectedCom
+|                  | |
+57.45              | 134.5672224
+                   false
+
+	at features.AllTxnCommission.2. Disbursement Withdraw Commission(AllTxnCommission.groovy:119)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Send Money Commission with Send money with negative case amount=5"></a>
+<h3 class="failures">Send Money Commission with Send money with negative case amount=5</h3>
+<span class="code">
+<pre>Condition not satisfied:
+
+actualServiceCharge==expectedCom
+|                  | |
+4.0                | 0
+                   false
+
+	at features.AllTxnCommission.4. Send Money Commission(AllTxnCommission.groovy:235)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Agent Assisted Payment(fee from customer) Commission with Try to payment with amount=1500,  and service charge from customer, rate=1%, service charge will be=15</td>
+<td>0.106s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Agent Assisted Payment(fee from customer) Commission with Try to payment with amount=3500,  and service charge from customer,max fee=30, service charge will be=30</td>
+<td>0.108s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Agent Assisted Payment(fee from customer) Commission with Try to payment with amount=500,  and service charge from customer, rate=1%, service charge will be=5</td>
+<td>0.115s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Agent Assisted Payment(fee from customer) Commission with Try to payment with amount=5500,  and service charge from customer, max fee=30,service charge will be=30</td>
+<td>0.121s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Agent Assisted Payment(fee from customer) Commission with payment with amount=19 and service charge from customer,min fee=4, service charge will be=4</td>
+<td>0.104s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Agent Assisted Payment(fee from customer) Commission with payment with amount=380 and service charge from customer,min fee=4, service charge will be=4</td>
+<td>0.091s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">Agent Assisted Payment(fee from merchant) Commission with payment with amount=1600 and service charge from merchant, service charge will be=0 for customer</td>
+<td>0.119s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Agent Assisted Payment(fee from merchant) Commission with payment with amount=3500 and service charge from merchant, service charge will be=0 for customer</td>
+<td>0.113s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Agent Assisted Payment(fee from merchant) Commission with payment with amount=380 and service charge from merchant, service charge will be=0 for customer</td>
+<td>0.116s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Agent/Customer Assisted Withdraw Commission with General withdraw amount=1000</td>
+<td>2.292s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Agent/Customer Assisted Withdraw Commission with General withdraw amount=666</td>
+<td>0.115s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Agent/Customer Assisted Withdraw Commission with Max withdraw amount=8000</td>
+<td>0.118s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">Agent/Customer Assisted Withdraw Commission with Minimum invalid withdraw amount=25</td>
+<td>0.508s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Agent/Customer Assisted Withdraw Commission with Minimum withdraw amount=80</td>
+<td>0.103s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">Agent/Customer Assisted Withdraw Commission with Negative case amount=999</td>
+<td>0.116s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Customer Assisted Payment(fee from customer) Commission with Try to payment with amount=1750,  and service charge from customer, rate=1%, service charge will be=15</td>
+<td>0.134s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Customer Assisted Payment(fee from customer) Commission with Try to payment with amount=3500,  and service charge from customer,max fee=25, service charge will be=25</td>
+<td>0.144s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Customer Assisted Payment(fee from customer) Commission with Try to payment with amount=550,  and service charge from customer, rate=1%, service charge will be=5.5</td>
+<td>0.119s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Customer Assisted Payment(fee from customer) Commission with Try to payment with amount=5500,  and service charge from customer, max fee=25,service charge will be=25</td>
+<td>0.113s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Customer Assisted Payment(fee from customer) Commission with payment with amount=18 and service charge from customer,min fee=4, service charge will be=4</td>
+<td>0.083s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Customer Assisted Payment(fee from customer) Commission with payment with amount=350 and service charge from customer,min fee=4, service charge will be=4</td>
+<td>0.295s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Customer Assisted Payment(fee from merchant) Commission with payment with amount=2200 and service charge from merchant, service charge will be=0 for customer</td>
+<td>0.133s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Customer Assisted Payment(fee from merchant) Commission with payment with amount=3350 and service charge from merchant, service charge will be=0 for customer</td>
+<td>0.150s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Customer Assisted Payment(fee from merchant) Commission with payment with amount=350 and service charge from merchant, service charge will be=0 for customer</td>
+<td>0.111s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">Disbursement Withdraw Commission with Set max disburse withdraw fee=20 and rate=1% and withdraw 3000 </td>
+<td>0.118s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Disbursement Withdraw Commission with disburse combined withdraw(general+disburse) amount=8745 and </td>
+<td>0.121s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Disbursement Withdraw Commission with disburse minimum withdraw amount=45 and </td>
+<td>0.131s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Disbursement Withdraw Commission with disburse withdraw amount=1000 and rate=1%</td>
+<td>0.160s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Disbursement Withdraw Commission with disburse withdraw amount=987 and rate=1%</td>
+<td>0.130s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">PESP Disbursement Withdraw Commission with PESP disburse combined withdraw(general+disburse) amount=1600</td>
+<td>0.089s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">PESP Disbursement Withdraw Commission with PESP disburse min amount=1600</td>
+<td>0.126s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">PESP Disbursement Withdraw Commission with PESP disburse withdraw amount=1000</td>
+<td>0.100s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">PESP Disbursement Withdraw Commission with PESP disburse withdraw amount=300</td>
+<td>0.109s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Send Money Commission with Send money with  amount=1600</td>
+<td>0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Send Money Commission with Send money with negative case amount=450</td>
+<td>0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">Send Money Commission with Send money with negative case amount=5</td>
+<td>0.033s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Agent Assisted Withdraw Commission request: null
+Agent Assisted Withdraw Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 18.0
+}
+Agent Assisted Withdraw Commission request: null
+Agent Assisted Withdraw Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 11.988
+}
+Agent Assisted Withdraw Commission request: null
+Agent Assisted Withdraw Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 5.0
+}
+Agent Assisted Withdraw Commission request: null
+Agent Assisted Withdraw Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 5.0
+}
+Agent Assisted Withdraw Commission request: null
+Agent Assisted Withdraw Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 144.0
+}
+Agent Assisted Withdraw Commission request: null
+Agent Assisted Withdraw Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 17.982
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 10.0
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 9.87
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 57.45
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 0.45
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 30.0
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 0.0
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 0.0
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 0.0
+}
+Disbursement Withdraw Commission request: null
+Disbursement Withdraw Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 0.0
+}
+Send Money Commission request: null
+Send Money Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 4.0
+}
+Send Money Commission request: null
+Send Money Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 4.0
+}
+Send Money Commission request: null
+Send Money Commission response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 4.0
+}
+Agent Assisted Payment(fee from customer) request: null
+Agent Assisted Payment(fee from customer) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 4.0
+}
+Agent Assisted Payment(fee from customer) request: null
+Agent Assisted Payment(fee from customer) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 4.0
+}
+Agent Assisted Payment(fee from customer) request: null
+Agent Assisted Payment(fee from customer) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 5.0
+}
+Agent Assisted Payment(fee from customer) request: null
+Agent Assisted Payment(fee from customer) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 15.0
+}
+Agent Assisted Payment(fee from customer) request: null
+Agent Assisted Payment(fee from customer) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 30.0
+}
+Agent Assisted Payment(fee from customer) request: null
+Agent Assisted Payment(fee from customer) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 30.0
+}
+Agent Assisted Payment(fee from merchant) request: null
+Agent Assisted Payment(fee from merchant) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 4.0
+}
+Agent Assisted Payment(fee from merchant) request: null
+Agent Assisted Payment(fee from merchant) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 16.0
+}
+Agent Assisted Payment(fee from merchant) request: null
+Agent Assisted Payment(fee from merchant) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 30.0
+}
+Customer Assisted Payment(fee from customer) request: null
+Customer Assisted Payment(fee from customer) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 4.0
+}
+Customer Assisted Payment(fee from customer) request: null
+Customer Assisted Payment(fee from customer) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 4.0
+}
+Customer Assisted Payment(fee from customer) request: null
+Customer Assisted Payment(fee from customer) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 5.5
+}
+Customer Assisted Payment(fee from customer) request: null
+Customer Assisted Payment(fee from customer) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 17.5
+}
+Customer Assisted Payment(fee from customer) request: null
+Customer Assisted Payment(fee from customer) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 25.0
+}
+Customer Assisted Payment(fee from customer) request: null
+Customer Assisted Payment(fee from customer) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 25.0
+}
+Customer Assisted Payment(fee from merchant) request: null
+Customer Assisted Payment(fee from merchant) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 0.0
+}
+Customer Assisted Payment(fee from merchant) request: null
+Customer Assisted Payment(fee from merchant) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 0.0
+}
+Customer Assisted Payment(fee from merchant) request: null
+Customer Assisted Payment(fee from merchant) response: {
+    &quot;status&quot;: &quot;SUCCESS&quot;,
+    &quot;description&quot;: null,
+    &quot;refId&quot;: null,
+    &quot;serviceFee&quot;: 0.0
+}
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.0.1</a> at Feb 12, 2020 3:02:29 PM</p>
+</div>
+</div>
+</body>
+</html>

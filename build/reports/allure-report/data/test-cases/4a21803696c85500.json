@@ -1,0 +1,44 @@
+{
+  "uid" : "4a21803696c85500",
+  "name" : "Disbursement Withdraw Commission with disburse withdraw amount=987 and rate=1%",
+  "fullName" : "features.AllTxnCommission.Disbursement Withdraw Commission with disburse withdraw amount=987 and rate=1%",
+  "historyId" : "27d3c74acdd7b057c890c13f35029862",
+  "time" : {
+    "start" : 1581486181568,
+    "stop" : 1581486181660,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Service Charges: 9.87",
+  "descriptionHtml" : "<p>Service Charges: 9.87</p>\n",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Disbursement Withdraw Commission with disburse withdraw amount=987 and rate=1%"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "14832@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  }
+}

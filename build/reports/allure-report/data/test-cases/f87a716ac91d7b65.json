@@ -1,0 +1,85 @@
+{
+  "uid" : "f87a716ac91d7b65",
+  "name" : "1. Agent Assisted Withdraw Commission",
+  "fullName" : "features.AllTxnRegression.1. Agent Assisted Withdraw Commission",
+  "historyId" : "3d1229502da767cde2c14b27a14f271",
+  "time" : {
+    "start" : 1581487676603,
+    "stop" : 1581487676708,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnRegression"
+  }, {
+    "name" : "testMethod",
+    "value" : "1. Agent Assisted Withdraw Commission"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnRegression"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "23244@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "69f1a5e449477b6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581486464779,
+        "stop" : 1581486464925,
+        "duration" : 146
+      }
+    }, {
+      "uid" : "589c087ae4e62328",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581486361163,
+        "stop" : 1581486361300,
+        "duration" : 137
+      }
+    }, {
+      "uid" : "e4768fab25349493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581486217109,
+        "stop" : 1581486217243,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "79a555457c4042d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581486181873,
+        "stop" : 1581486181990,
+        "duration" : 117
+      }
+    }, {
+      "uid" : "d1f8ee2019fe2d08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581485880896,
+        "stop" : 1581485881026,
+        "duration" : 130
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  }
+}

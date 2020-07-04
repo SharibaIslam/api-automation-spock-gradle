@@ -1,0 +1,47 @@
+{
+  "uid" : "5d3913736f3350f2",
+  "name" : "Customer Assisted Payment(fee from customer) Commission with payment with amount=350 and service charge from customer,min fee=4, service charge will be=4",
+  "fullName" : "features.AllTxnCommission.Customer Assisted Payment(fee from customer) Commission with payment with amount=350 and service charge from customer,min fee=4, service charge will be=4",
+  "historyId" : "c6927796733202b15276d047fe45b6c5",
+  "time" : {
+    "start" : 1581498148358,
+    "stop" : 1581498148441,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Status Code: 200 \n\r Status: PASS \n\r Type: Customer Assisted Payment(fee from customer) commission  \n\r Date Time: Wed Feb 12 15:02:28 BDT 2020\n\r Actual Commission: 4.0\n\r Expected Commission: 4",
+  "descriptionHtml" : "<p>Status Code: 200</p>\n<p>Status: PASS</p>\n<p>Type: Customer Assisted Payment(fee from customer) commission</p>\n<p>Date Time: Wed Feb 12 15:02:28 BDT 2020</p>\n<p>Actual Commission: 4.0</p>\n<p>Expected Commission: 4</p>\n",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Customer Assisted Payment(fee from customer) Commission with payment with amount=350 and service charge from customer,min fee=4, service charge will be=4"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "10840@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  }
+}

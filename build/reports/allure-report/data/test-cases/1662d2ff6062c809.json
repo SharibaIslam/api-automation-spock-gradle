@@ -1,0 +1,44 @@
+{
+  "uid" : "1662d2ff6062c809",
+  "name" : "Disbursement Withdraw Commission with disburse withdraw amount=1000 and rate=1%",
+  "fullName" : "features.AllTxnCommission.Disbursement Withdraw Commission with disburse withdraw amount=1000 and rate=1%",
+  "historyId" : "615f6c1786e7e33d02b35d7c2c1b0920",
+  "time" : {
+    "start" : 1581487676032,
+    "stop" : 1581487676116,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Status Code: 200 \n\r Status: PASS \n\r Type: Disburse withdraw commission  \n\r Date Time: Wed Feb 12 12:07:56 BDT 2020\n\r Actual Commission: 10.0\n\r Expected Commission: 10.0",
+  "descriptionHtml" : "<p>Status Code: 200</p>\n<p>Status: PASS</p>\n<p>Type: Disburse withdraw commission</p>\n<p>Date Time: Wed Feb 12 12:07:56 BDT 2020</p>\n<p>Actual Commission: 10.0</p>\n<p>Expected Commission: 10.0</p>\n",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Disbursement Withdraw Commission with disburse withdraw amount=1000 and rate=1%"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "23244@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  }
+}

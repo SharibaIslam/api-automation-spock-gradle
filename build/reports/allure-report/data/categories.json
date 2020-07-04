@@ -1,0 +1,283 @@
+{
+  "statistic" : {
+    "failed" : 8,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 8
+  },
+  "time" : {
+    "minDuration" : 20,
+    "maxDuration" : 359,
+    "sumDuration" : 904,
+    "start" : 1581498145289,
+    "stop" : 1581498148232,
+    "duration" : 2943
+  },
+  "children" : [ {
+    "uid" : "1413af46dc247c50",
+    "name" : "Product defects",
+    "time" : {
+      "minDuration" : 20,
+      "maxDuration" : 359,
+      "sumDuration" : 904,
+      "start" : 1581498145289,
+      "stop" : 1581498148232,
+      "duration" : 2943
+    },
+    "statistic" : {
+      "failed" : 8,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 8
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "9c20ba4f5c17906d",
+      "name" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n30.0               | 20\n                   false\n",
+      "time" : {
+        "minDuration" : 69,
+        "maxDuration" : 69,
+        "sumDuration" : 69,
+        "start" : 1581498146608,
+        "stop" : 1581498146677,
+        "duration" : 69
+      },
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "2fd196ce2f808ab9",
+        "name" : "Disbursement Withdraw Commission with Set max disburse withdraw fee=20 and rate=1% and withdraw 3000 ",
+        "time" : {
+          "start" : 1581498146608,
+          "stop" : 1581498146677,
+          "duration" : 69
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      } ]
+    }, {
+      "uid" : "d86bca7457a4ac7e",
+      "name" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n16.0               | 0\n                   false\n",
+      "time" : {
+        "minDuration" : 101,
+        "maxDuration" : 101,
+        "sumDuration" : 101,
+        "start" : 1581498148036,
+        "stop" : 1581498148137,
+        "duration" : 101
+      },
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "127c2cde4e154bce",
+        "name" : "Agent Assisted Payment(fee from merchant) Commission with payment with amount=1600 and service charge from merchant, service charge will be=0 for customer",
+        "time" : {
+          "start" : 1581498148036,
+          "stop" : 1581498148137,
+          "duration" : 101
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      } ]
+    }, {
+      "uid" : "f63e00c278dfba95",
+      "name" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n5.0                | 0\n                   false\n",
+      "time" : {
+        "minDuration" : 359,
+        "maxDuration" : 359,
+        "sumDuration" : 359,
+        "start" : 1581498145289,
+        "stop" : 1581498145648,
+        "duration" : 359
+      },
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "c3b966a3220fced2",
+        "name" : "Agent/Customer Assisted Withdraw Commission with Minimum invalid withdraw amount=25",
+        "time" : {
+          "start" : 1581498145289,
+          "stop" : 1581498145648,
+          "duration" : 359
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      } ]
+    }, {
+      "uid" : "384e6944fcc3d583",
+      "name" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n4.0                | 0\n                   false\n",
+      "time" : {
+        "minDuration" : 20,
+        "maxDuration" : 97,
+        "sumDuration" : 117,
+        "start" : 1581498147167,
+        "stop" : 1581498148015,
+        "duration" : 848
+      },
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "f2c9632db381463a",
+        "name" : "Agent Assisted Payment(fee from merchant) Commission with payment with amount=380 and service charge from merchant, service charge will be=0 for customer",
+        "time" : {
+          "start" : 1581498147918,
+          "stop" : 1581498148015,
+          "duration" : 97
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "17224f595caf1757",
+        "name" : "Send Money Commission with Send money with negative case amount=5",
+        "time" : {
+          "start" : 1581498147167,
+          "stop" : 1581498147187,
+          "duration" : 20
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      } ]
+    }, {
+      "uid" : "4f86157bf9b6404c",
+      "name" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n17.982             | 14\n                   false\n",
+      "time" : {
+        "minDuration" : 86,
+        "maxDuration" : 86,
+        "sumDuration" : 86,
+        "start" : 1581498145924,
+        "stop" : 1581498146010,
+        "duration" : 86
+      },
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "c0bbc3e142c91ac9",
+        "name" : "Agent/Customer Assisted Withdraw Commission with Negative case amount=999",
+        "time" : {
+          "start" : 1581498145924,
+          "stop" : 1581498146010,
+          "duration" : 86
+        },
+        "status" : "failed",
+        "flaky" : true,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      } ]
+    }, {
+      "uid" : "e2c565183f382d8e",
+      "name" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n57.45              | 134.5672224\n                   false\n",
+      "time" : {
+        "minDuration" : 97,
+        "maxDuration" : 97,
+        "sumDuration" : 97,
+        "start" : 1581498146346,
+        "stop" : 1581498146443,
+        "duration" : 97
+      },
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "9890cc79f69a8dfa",
+        "name" : "Disbursement Withdraw Commission with disburse combined withdraw(general+disburse) amount=8745 and ",
+        "time" : {
+          "start" : 1581498146346,
+          "stop" : 1581498146443,
+          "duration" : 97
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      } ]
+    }, {
+      "uid" : "9534841e4488a123",
+      "name" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n30.0               | 0\n                   false\n",
+      "time" : {
+        "minDuration" : 75,
+        "maxDuration" : 75,
+        "sumDuration" : 75,
+        "start" : 1581498148157,
+        "stop" : 1581498148232,
+        "duration" : 75
+      },
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "411f7e3238c436c",
+        "name" : "Agent Assisted Payment(fee from merchant) Commission with payment with amount=3500 and service charge from merchant, service charge will be=0 for customer",
+        "time" : {
+          "start" : 1581498148157,
+          "stop" : 1581498148232,
+          "duration" : 75
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      } ]
+    } ]
+  } ]
+}

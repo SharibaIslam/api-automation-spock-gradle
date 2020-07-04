@@ -1,0 +1,44 @@
+{
+  "uid" : "1b9ee9b26dd95abe",
+  "name" : "Agent/Customer Assisted Withdraw Commission with Minimum withdraw amount=80",
+  "fullName" : "features.AllTxnCommission.Agent/Customer Assisted Withdraw Commission with Minimum withdraw amount=80",
+  "historyId" : "d371736a230682b4e0d16c35295548cc",
+  "time" : {
+    "start" : 1581487675459,
+    "stop" : 1581487675532,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Status: FAIL \n\r Type: Activity List \n\r Date Time: Wed Feb 12 12:07:55 BDT 2020",
+  "descriptionHtml" : "<p>Status: FAIL</p>\n<p>Type: Activity List</p>\n<p>Date Time: Wed Feb 12 12:07:55 BDT 2020</p>\n",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Agent/Customer Assisted Withdraw Commission with Minimum withdraw amount=80"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "23244@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  }
+}

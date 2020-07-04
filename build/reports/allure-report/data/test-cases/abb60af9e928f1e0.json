@@ -1,0 +1,44 @@
+{
+  "uid" : "abb60af9e928f1e0",
+  "name" : "Disbursement Withdraw Commission with disburse combined withdraw(general+disburse) amount=8745 and ",
+  "fullName" : "features.AllTxnCommission.Disbursement Withdraw Commission with disburse combined withdraw(general+disburse) amount=8745 and ",
+  "historyId" : "41c35b229268a071321d4899e99b745d",
+  "time" : {
+    "start" : 1581486361020,
+    "stop" : 1581486361121,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Service Charges: 134.5672224",
+  "descriptionHtml" : "<p>Service Charges: 134.5672224</p>\n",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Disbursement Withdraw Commission with disburse combined withdraw(general+disburse) amount=8745 and "
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "15540@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  }
+}

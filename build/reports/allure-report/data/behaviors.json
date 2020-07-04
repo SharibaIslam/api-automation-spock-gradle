@@ -1,0 +1,505 @@
+{
+  "statistic" : {
+    "failed" : 8,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 29,
+    "unknown" : 0,
+    "total" : 37
+  },
+  "time" : {
+    "minDuration" : 11,
+    "maxDuration" : 1749,
+    "sumDuration" : 5206,
+    "start" : 1581487676603,
+    "stop" : 1581498149530,
+    "duration" : 10472927
+  },
+  "children" : [ {
+    "uid" : "7fa684b02803ca8c",
+    "name" : "Default feature",
+    "time" : {
+      "minDuration" : 11,
+      "maxDuration" : 1749,
+      "sumDuration" : 5206,
+      "start" : 1581487676603,
+      "stop" : 1581498149530,
+      "duration" : 10472927
+    },
+    "statistic" : {
+      "failed" : 8,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 29,
+      "unknown" : 0,
+      "total" : 37
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "578299755741c1fb",
+      "name" : "Default story",
+      "time" : {
+        "minDuration" : 11,
+        "maxDuration" : 1749,
+        "sumDuration" : 5206,
+        "start" : 1581487676603,
+        "stop" : 1581498149530,
+        "duration" : 10472927
+      },
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 29,
+        "unknown" : 0,
+        "total" : 37
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "2fd196ce2f808ab9",
+        "name" : "Disbursement Withdraw Commission with Set max disburse withdraw fee=20 and rate=1% and withdraw 3000 ",
+        "time" : {
+          "start" : 1581498146608,
+          "stop" : 1581498146677,
+          "duration" : 69
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "84eeb4a0c83e87f2",
+        "name" : "PESP Disbursement Withdraw Commission with PESP disburse withdraw amount=1000",
+        "time" : {
+          "start" : 1581498146729,
+          "stop" : 1581498146818,
+          "duration" : 89
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "fc33dddda356650e",
+        "name" : "Agent Assisted Payment(fee from customer) Commission with payment with amount=380 and service charge from customer,min fee=4, service charge will be=4",
+        "time" : {
+          "start" : 1581498147357,
+          "stop" : 1581498147435,
+          "duration" : 78
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "f2eebf71d66e74c7",
+        "name" : "Agent Assisted Payment(fee from customer) Commission with Try to payment with amount=500,  and service charge from customer, rate=1%, service charge will be=5",
+        "time" : {
+          "start" : 1581498147450,
+          "stop" : 1581498147545,
+          "duration" : 95
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "783ede68b1ab90fc",
+        "name" : "Disbursement Withdraw Commission with disburse withdraw amount=987 and rate=1%",
+        "time" : {
+          "start" : 1581498146211,
+          "stop" : 1581498146319,
+          "duration" : 108
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "1f0ec2d5952bd8cf",
+        "name" : "Agent/Customer Assisted Withdraw Commission with Minimum withdraw amount=80",
+        "time" : {
+          "start" : 1581498145182,
+          "stop" : 1581498145277,
+          "duration" : 95
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "6e03f5c606d32778",
+        "name" : "Customer Assisted Payment(fee from customer) Commission with Try to payment with amount=5500,  and service charge from customer, max fee=25,service charge will be=25",
+        "time" : {
+          "start" : 1581498149060,
+          "stop" : 1581498149165,
+          "duration" : 105
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "44c89a271a1735f1",
+        "name" : "Agent/Customer Assisted Withdraw Commission with General withdraw amount=666",
+        "time" : {
+          "start" : 1581498145064,
+          "stop" : 1581498145169,
+          "duration" : 105
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "1c28882e3e648024",
+        "name" : "Agent/Customer Assisted Withdraw Commission with General withdraw amount=1000",
+        "time" : {
+          "start" : 1581498142767,
+          "stop" : 1581498144516,
+          "duration" : 1749
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "127c2cde4e154bce",
+        "name" : "Agent Assisted Payment(fee from merchant) Commission with payment with amount=1600 and service charge from merchant, service charge will be=0 for customer",
+        "time" : {
+          "start" : 1581498148036,
+          "stop" : 1581498148137,
+          "duration" : 101
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "ff9c3bd41009e633",
+        "name" : "Agent Assisted Payment(fee from customer) Commission with payment with amount=19 and service charge from customer,min fee=4, service charge will be=4",
+        "time" : {
+          "start" : 1581498147249,
+          "stop" : 1581498147336,
+          "duration" : 87
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "9bb7487e777b452b",
+        "name" : "Customer Assisted Payment(fee from merchant) Commission with payment with amount=2200 and service charge from merchant, service charge will be=0 for customer",
+        "time" : {
+          "start" : 1581498149289,
+          "stop" : 1581498149391,
+          "duration" : 102
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "c598c56f7cd97ede",
+        "name" : "PESP Disbursement Withdraw Commission with PESP disburse min amount=1600",
+        "time" : {
+          "start" : 1581498147036,
+          "stop" : 1581498147116,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "f87a716ac91d7b65",
+        "name" : "1. Agent Assisted Withdraw Commission",
+        "time" : {
+          "start" : 1581487676603,
+          "stop" : 1581487676708,
+          "duration" : 105
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "c3b966a3220fced2",
+        "name" : "Agent/Customer Assisted Withdraw Commission with Minimum invalid withdraw amount=25",
+        "time" : {
+          "start" : 1581498145289,
+          "stop" : 1581498145648,
+          "duration" : 359
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "a881b98134660a8b",
+        "name" : "Customer Assisted Payment(fee from merchant) Commission with payment with amount=350 and service charge from merchant, service charge will be=0 for customer",
+        "time" : {
+          "start" : 1581498149176,
+          "stop" : 1581498149277,
+          "duration" : 101
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "7f9d2b56c14f6594",
+        "name" : "Agent Assisted Payment(fee from customer) Commission with Try to payment with amount=5500,  and service charge from customer, max fee=30,service charge will be=30",
+        "time" : {
+          "start" : 1581498147790,
+          "stop" : 1581498147887,
+          "duration" : 97
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "a7e5f2c4543d39a",
+        "name" : "Send Money Commission with Send money with  amount=1600",
+        "time" : {
+          "start" : 1581498147226,
+          "stop" : 1581498147239,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "3f7f1ab16b003be3",
+        "name" : "Agent Assisted Payment(fee from customer) Commission with Try to payment with amount=3500,  and service charge from customer,max fee=30, service charge will be=30",
+        "time" : {
+          "start" : 1581498147676,
+          "stop" : 1581498147768,
+          "duration" : 92
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "66f503f5c87b15af",
+        "name" : "PESP Disbursement Withdraw Commission with PESP disburse combined withdraw(general+disburse) amount=1600",
+        "time" : {
+          "start" : 1581498146945,
+          "stop" : 1581498147025,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "e9fa0a612fdf8f1c",
+        "name" : "Disbursement Withdraw Commission with disburse withdraw amount=1000 and rate=1%",
+        "time" : {
+          "start" : 1581498146045,
+          "stop" : 1581498146151,
+          "duration" : 106
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "f2c9632db381463a",
+        "name" : "Agent Assisted Payment(fee from merchant) Commission with payment with amount=380 and service charge from merchant, service charge will be=0 for customer",
+        "time" : {
+          "start" : 1581498147918,
+          "stop" : 1581498148015,
+          "duration" : 97
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "17224f595caf1757",
+        "name" : "Send Money Commission with Send money with negative case amount=5",
+        "time" : {
+          "start" : 1581498147167,
+          "stop" : 1581498147187,
+          "duration" : 20
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "2a283c0e44060a38",
+        "name" : "Agent/Customer Assisted Withdraw Commission with Max withdraw amount=8000",
+        "time" : {
+          "start" : 1581498145802,
+          "stop" : 1581498145911,
+          "duration" : 109
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "f46bf14cad315958",
+        "name" : "Customer Assisted Payment(fee from merchant) Commission with payment with amount=3350 and service charge from merchant, service charge will be=0 for customer",
+        "time" : {
+          "start" : 1581498149424,
+          "stop" : 1581498149530,
+          "duration" : 106
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "ff8797a19aa898fc",
+        "name" : "Agent Assisted Payment(fee from customer) Commission with Try to payment with amount=1500,  and service charge from customer, rate=1%, service charge will be=15",
+        "time" : {
+          "start" : 1581498147569,
+          "stop" : 1581498147666,
+          "duration" : 97
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "5d3913736f3350f2",
+        "name" : "Customer Assisted Payment(fee from customer) Commission with payment with amount=350 and service charge from customer,min fee=4, service charge will be=4",
+        "time" : {
+          "start" : 1581498148358,
+          "stop" : 1581498148441,
+          "duration" : 83
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "bea21562901b7493",
+        "name" : "PESP Disbursement Withdraw Commission with PESP disburse withdraw amount=300",
+        "time" : {
+          "start" : 1581498146831,
+          "stop" : 1581498146915,
+          "duration" : 84
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "c0bbc3e142c91ac9",
+        "name" : "Agent/Customer Assisted Withdraw Commission with Negative case amount=999",
+        "time" : {
+          "start" : 1581498145924,
+          "stop" : 1581498146010,
+          "duration" : 86
+        },
+        "status" : "failed",
+        "flaky" : true,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "9890cc79f69a8dfa",
+        "name" : "Disbursement Withdraw Commission with disburse combined withdraw(general+disburse) amount=8745 and ",
+        "time" : {
+          "start" : 1581498146346,
+          "stop" : 1581498146443,
+          "duration" : 97
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "b253b9281e733349",
+        "name" : "Customer Assisted Payment(fee from customer) Commission with Try to payment with amount=3500,  and service charge from customer,max fee=25, service charge will be=25",
+        "time" : {
+          "start" : 1581498148914,
+          "stop" : 1581498149051,
+          "duration" : 137
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "d4e83431368af46a",
+        "name" : "Customer Assisted Payment(fee from customer) Commission with Try to payment with amount=550,  and service charge from customer, rate=1%, service charge will be=5.5",
+        "time" : {
+          "start" : 1581498148657,
+          "stop" : 1581498148767,
+          "duration" : 110
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "9796baf010e529f7",
+        "name" : "Send Money Commission with Send money with negative case amount=450",
+        "time" : {
+          "start" : 1581498147203,
+          "stop" : 1581498147214,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "7c9300e54cd2bdd4",
+        "name" : "Customer Assisted Payment(fee from customer) Commission with Try to payment with amount=1750,  and service charge from customer, rate=1%, service charge will be=15",
+        "time" : {
+          "start" : 1581498148778,
+          "stop" : 1581498148880,
+          "duration" : 102
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "411f7e3238c436c",
+        "name" : "Agent Assisted Payment(fee from merchant) Commission with payment with amount=3500 and service charge from merchant, service charge will be=0 for customer",
+        "time" : {
+          "start" : 1581498148157,
+          "stop" : 1581498148232,
+          "duration" : 75
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "8283e3420bdd7a6b",
+        "name" : "Customer Assisted Payment(fee from customer) Commission with payment with amount=18 and service charge from customer,min fee=4, service charge will be=4",
+        "time" : {
+          "start" : 1581498148273,
+          "stop" : 1581498148349,
+          "duration" : 76
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      }, {
+        "uid" : "23bfecfc34b1a5f8",
+        "name" : "Disbursement Withdraw Commission with disburse minimum withdraw amount=45 and ",
+        "time" : {
+          "start" : 1581498146472,
+          "stop" : 1581498146572,
+          "duration" : 100
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode",
+        "parameters" : [ ]
+      } ]
+    } ]
+  } ]
+}

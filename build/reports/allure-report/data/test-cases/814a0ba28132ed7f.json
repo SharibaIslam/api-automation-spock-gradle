@@ -1,0 +1,42 @@
+{
+  "uid" : "814a0ba28132ed7f",
+  "name" : "Agent/Customer Assisted Withdraw Commission with General withdraw amount=1000",
+  "fullName" : "features.AllTxnCommission.Agent/Customer Assisted Withdraw Commission with General withdraw amount=1000",
+  "historyId" : "e60c05c00a0759fcbdce12a72fe10bd2",
+  "time" : {
+    "start" : 1581486358297,
+    "stop" : 1581486359697,
+    "duration" : 1400
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Agent/Customer Assisted Withdraw Commission with General withdraw amount=1000"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "15540@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "uid" : "17224f595caf1757",
+  "name" : "Send Money Commission with Send money with negative case amount=5",
+  "fullName" : "features.AllTxnCommission.Send Money Commission with Send money with negative case amount=5",
+  "historyId" : "84919be4eb6c63e2378588be09f9fa16",
+  "time" : {
+    "start" : 1581498147167,
+    "stop" : 1581498147187,
+    "duration" : 20
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n4.0                | 0\n                   false\n",
+    "trace" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n4.0                | 0\n                   false\n\r\n\tat features.AllTxnCommission.4. Send Money Commission(AllTxnCommission.groovy:235)\r\n",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Send Money Commission with Send money with negative case amount=5"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "10840@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  }
+}

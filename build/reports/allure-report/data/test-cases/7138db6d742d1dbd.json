@@ -1,0 +1,42 @@
+{
+  "uid" : "7138db6d742d1dbd",
+  "name" : "Agent/Customer Assisted Withdraw Commission with Max withdraw amount=8000",
+  "fullName" : "features.AllTxnCommission.Agent/Customer Assisted Withdraw Commission with Max withdraw amount=8000",
+  "historyId" : "ca41c754648fce277917f829c229e83f",
+  "time" : {
+    "start" : 1581486463489,
+    "stop" : 1581486463574,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Agent/Customer Assisted Withdraw Commission with Max withdraw amount=8000"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "15128@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  }
+}

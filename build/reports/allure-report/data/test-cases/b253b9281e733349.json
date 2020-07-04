@@ -1,0 +1,47 @@
+{
+  "uid" : "b253b9281e733349",
+  "name" : "Customer Assisted Payment(fee from customer) Commission with Try to payment with amount=3500,  and service charge from customer,max fee=25, service charge will be=25",
+  "fullName" : "features.AllTxnCommission.Customer Assisted Payment(fee from customer) Commission with Try to payment with amount=3500,  and service charge from customer,max fee=25, service charge will be=25",
+  "historyId" : "478978898e25a7c368a07488af1c6b50",
+  "time" : {
+    "start" : 1581498148914,
+    "stop" : 1581498149051,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Status Code: 200 \n\r Status: PASS \n\r Type: Customer Assisted Payment(fee from customer) commission  \n\r Date Time: Wed Feb 12 15:02:28 BDT 2020\n\r Actual Commission: 25.0\n\r Expected Commission: 25",
+  "descriptionHtml" : "<p>Status Code: 200</p>\n<p>Status: PASS</p>\n<p>Type: Customer Assisted Payment(fee from customer) commission</p>\n<p>Date Time: Wed Feb 12 15:02:28 BDT 2020</p>\n<p>Actual Commission: 25.0</p>\n<p>Expected Commission: 25</p>\n",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Customer Assisted Payment(fee from customer) Commission with Try to payment with amount=3500,  and service charge from customer,max fee=25, service charge will be=25"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "10840@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  }
+}

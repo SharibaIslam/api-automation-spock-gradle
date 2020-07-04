@@ -1,0 +1,44 @@
+{
+  "uid" : "ff67e3e24c61bd75",
+  "name" : "Agent/Customer Assisted Withdraw Commission with Negative case amount=999",
+  "fullName" : "features.AllTxnCommission.Agent/Customer Assisted Withdraw Commission with Negative case amount=999",
+  "historyId" : "b1f16cbe9a861c32d7311c99da15c345",
+  "time" : {
+    "start" : 1581487675673,
+    "stop" : 1581487675976,
+    "duration" : 303
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n17.982             | 14\n                   false\n",
+    "trace" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n17.982             | 14\n                   false\n\r\n\tat features.AllTxnCommission.1. Agent/Customer Assisted Withdraw Commission(AllTxnCommission.groovy:59)\r\n",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Agent/Customer Assisted Withdraw Commission with Negative case amount=999"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "23244@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  }
+}

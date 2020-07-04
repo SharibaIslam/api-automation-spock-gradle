@@ -1,0 +1,47 @@
+{
+  "uid" : "3f7f1ab16b003be3",
+  "name" : "Agent Assisted Payment(fee from customer) Commission with Try to payment with amount=3500,  and service charge from customer,max fee=30, service charge will be=30",
+  "fullName" : "features.AllTxnCommission.Agent Assisted Payment(fee from customer) Commission with Try to payment with amount=3500,  and service charge from customer,max fee=30, service charge will be=30",
+  "historyId" : "ffe46af26e84c3f75379b33076223f3e",
+  "time" : {
+    "start" : 1581498147676,
+    "stop" : 1581498147768,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Status Code: 200 \n\r Status: PASS \n\r Type: Agent Assisted Payment(fee from customer) commission  \n\r Date Time: Wed Feb 12 15:02:27 BDT 2020\n\r Actual Commission: 30.0\n\r Expected Commission: 30",
+  "descriptionHtml" : "<p>Status Code: 200</p>\n<p>Status: PASS</p>\n<p>Type: Agent Assisted Payment(fee from customer) commission</p>\n<p>Date Time: Wed Feb 12 15:02:27 BDT 2020</p>\n<p>Actual Commission: 30.0</p>\n<p>Expected Commission: 30</p>\n",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Agent Assisted Payment(fee from customer) Commission with Try to payment with amount=3500,  and service charge from customer,max fee=30, service charge will be=30"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "10840@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "uid" : "9890cc79f69a8dfa",
+  "name" : "Disbursement Withdraw Commission with disburse combined withdraw(general+disburse) amount=8745 and ",
+  "fullName" : "features.AllTxnCommission.Disbursement Withdraw Commission with disburse combined withdraw(general+disburse) amount=8745 and ",
+  "historyId" : "41c35b229268a071321d4899e99b745d",
+  "time" : {
+    "start" : 1581498146346,
+    "stop" : 1581498146443,
+    "duration" : 97
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n57.45              | 134.5672224\n                   false\n",
+    "trace" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n57.45              | 134.5672224\n                   false\n\r\n\tat features.AllTxnCommission.2. Disbursement Withdraw Commission(AllTxnCommission.groovy:119)\r\n",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Disbursement Withdraw Commission with disburse combined withdraw(general+disburse) amount=8745 and "
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "10840@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "73c0e1e4c6cce381",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581487676218,
+        "stop" : 1581487676291,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "cb454710896bf1a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581486464672,
+        "stop" : 1581486464742,
+        "duration" : 70
+      }
+    }, {
+      "uid" : "abb60af9e928f1e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581486361020,
+        "stop" : 1581486361121,
+        "duration" : 101
+      }
+    }, {
+      "uid" : "4b418300967acb14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581486216983,
+        "stop" : 1581486217066,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "16ec1ceb20f68df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581486181726,
+        "stop" : 1581486181817,
+        "duration" : 91
+      }
+    }, {
+      "uid" : "16c5480046c8349c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581485880729,
+        "stop" : 1581485880819,
+        "duration" : 90
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  }
+}

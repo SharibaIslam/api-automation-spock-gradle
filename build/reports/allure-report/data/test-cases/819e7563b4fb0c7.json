@@ -1,0 +1,44 @@
+{
+  "uid" : "819e7563b4fb0c7",
+  "name" : "Agent/Customer Assisted Withdraw Commission with Negative case amount=999",
+  "fullName" : "features.AllTxnCommission.Agent/Customer Assisted Withdraw Commission with Negative case amount=999",
+  "historyId" : "b1f16cbe9a861c32d7311c99da15c345",
+  "time" : {
+    "start" : 1581486216368,
+    "stop" : 1581486216729,
+    "duration" : 361
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "Condition not satisfied:\n\nresponse.responseData[\"serviceFee\"]==expectedCom\n|        |           |             | |\n|        |           17.982        | 14\n|        |                         false\n|        [status:SUCCESS, description:null, refId:null, serviceFee:17.982]\ngroovyx.net.http.HttpResponseDecorator@53fcadf6\n",
+    "trace" : "Condition not satisfied:\n\nresponse.responseData[\"serviceFee\"]==expectedCom\n|        |           |             | |\n|        |           17.982        | 14\n|        |                         false\n|        [status:SUCCESS, description:null, refId:null, serviceFee:17.982]\ngroovyx.net.http.HttpResponseDecorator@53fcadf6\n\r\n\tat features.AllTxnCommission.1. Agent/Customer Assisted Withdraw Commission(AllTxnCommission.groovy:57)\r\n",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Agent/Customer Assisted Withdraw Commission with Negative case amount=999"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "17468@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "uid" : "1c28882e3e648024",
+  "name" : "Agent/Customer Assisted Withdraw Commission with General withdraw amount=1000",
+  "fullName" : "features.AllTxnCommission.Agent/Customer Assisted Withdraw Commission with General withdraw amount=1000",
+  "historyId" : "e60c05c00a0759fcbdce12a72fe10bd2",
+  "time" : {
+    "start" : 1581498142767,
+    "stop" : 1581498144516,
+    "duration" : 1749
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Status Code: 200 \n\r Status: PASS \n\r Type: Disburse withdraw commission  \n\r Date Time: Wed Feb 12 15:02:22 BDT 2020\n\r Actual Commission: 18.0\n\r Expected Commission: 18.0",
+  "descriptionHtml" : "<p>Status Code: 200</p>\n<p>Status: PASS</p>\n<p>Type: Disburse withdraw commission</p>\n<p>Date Time: Wed Feb 12 15:02:22 BDT 2020</p>\n<p>Actual Commission: 18.0</p>\n<p>Expected Commission: 18.0</p>\n",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Agent/Customer Assisted Withdraw Commission with General withdraw amount=1000"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "10840@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c537d1211227e71e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581487673342,
+        "stop" : 1581487674952,
+        "duration" : 1610
+      }
+    }, {
+      "uid" : "7e3dc66db3c966b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581486461123,
+        "stop" : 1581486462860,
+        "duration" : 1737
+      }
+    }, {
+      "uid" : "814a0ba28132ed7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581486358297,
+        "stop" : 1581486359697,
+        "duration" : 1400
+      }
+    }, {
+      "uid" : "88c333d9eb842753",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581486213904,
+        "stop" : 1581486215767,
+        "duration" : 1863
+      }
+    }, {
+      "uid" : "a63ea7b01f3337a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581486178330,
+        "stop" : 1581486180164,
+        "duration" : 1834
+      }
+    }, {
+      "uid" : "2f17849000649fec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581485877044,
+        "stop" : 1581485878907,
+        "duration" : 1863
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "uid" : "d1f8ee2019fe2d08",
+  "name" : "1. Agent Assisted Withdraw Commission",
+  "fullName" : "features.AllTxnRegression.1. Agent Assisted Withdraw Commission",
+  "historyId" : "3d1229502da767cde2c14b27a14f271",
+  "time" : {
+    "start" : 1581485880896,
+    "stop" : 1581485881026,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnRegression"
+  }, {
+    "name" : "testMethod",
+    "value" : "1. Agent Assisted Withdraw Commission"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnRegression"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "4608@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  }
+}

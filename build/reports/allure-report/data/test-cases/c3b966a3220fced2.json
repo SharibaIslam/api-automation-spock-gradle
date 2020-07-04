@@ -1,0 +1,50 @@
+{
+  "uid" : "c3b966a3220fced2",
+  "name" : "Agent/Customer Assisted Withdraw Commission with Minimum invalid withdraw amount=25",
+  "fullName" : "features.AllTxnCommission.Agent/Customer Assisted Withdraw Commission with Minimum invalid withdraw amount=25",
+  "historyId" : "52b8a8579cfc9b97786ce9e9b8ab62e3",
+  "time" : {
+    "start" : 1581498145289,
+    "stop" : 1581498145648,
+    "duration" : 359
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n5.0                | 0\n                   false\n",
+    "trace" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n5.0                | 0\n                   false\n\r\n\tat features.AllTxnCommission.1. Agent/Customer Assisted Withdraw Commission(AllTxnCommission.groovy:59)\r\n",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Agent/Customer Assisted Withdraw Commission with Minimum invalid withdraw amount=25"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "10840@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  }
+}

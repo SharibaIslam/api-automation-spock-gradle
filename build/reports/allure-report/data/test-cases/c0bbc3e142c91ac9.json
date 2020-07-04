@@ -1,0 +1,104 @@
+{
+  "uid" : "c0bbc3e142c91ac9",
+  "name" : "Agent/Customer Assisted Withdraw Commission with Negative case amount=999",
+  "fullName" : "features.AllTxnCommission.Agent/Customer Assisted Withdraw Commission with Negative case amount=999",
+  "historyId" : "b1f16cbe9a861c32d7311c99da15c345",
+  "time" : {
+    "start" : 1581498145924,
+    "stop" : 1581498146010,
+    "duration" : 86
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n17.982             | 14\n                   false\n",
+    "trace" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n17.982             | 14\n                   false\n\r\n\tat features.AllTxnCommission.1. Agent/Customer Assisted Withdraw Commission(AllTxnCommission.groovy:59)\r\n",
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Agent/Customer Assisted Withdraw Commission with Negative case amount=999"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "10840@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ff67e3e24c61bd75",
+      "status" : "failed",
+      "statusDetails" : "Condition not satisfied:\n\nactualServiceCharge==expectedCom\n|                  | |\n17.982             | 14\n                   false\n",
+      "time" : {
+        "start" : 1581487675673,
+        "stop" : 1581487675976,
+        "duration" : 303
+      }
+    }, {
+      "uid" : "9f38bfa93b8edc55",
+      "status" : "failed",
+      "statusDetails" : "Condition not satisfied:\n\nresponse.responseData[\"serviceFee\"]==expectedCom\n|        |           |             | |\n|        |           17.982        | 14\n|        |                         false\n|        [status:SUCCESS, description:null, refId:null, serviceFee:17.982]\ngroovyx.net.http.HttpResponseDecorator@3f33b0c1\n",
+      "time" : {
+        "start" : 1581486463593,
+        "stop" : 1581486463971,
+        "duration" : 378
+      }
+    }, {
+      "uid" : "423a75d9b21cd023",
+      "status" : "failed",
+      "statusDetails" : "Condition not satisfied:\n\nresponse.responseData[\"serviceFee\"]==expectedCom\n|        |           |             | |\n|        |           17.982        | 14\n|        |                         false\n|        [status:SUCCESS, description:null, refId:null, serviceFee:17.982]\ngroovyx.net.http.HttpResponseDecorator@24fe5053\n",
+      "time" : {
+        "start" : 1581486360290,
+        "stop" : 1581486360727,
+        "duration" : 437
+      }
+    }, {
+      "uid" : "819e7563b4fb0c7",
+      "status" : "failed",
+      "statusDetails" : "Condition not satisfied:\n\nresponse.responseData[\"serviceFee\"]==expectedCom\n|        |           |             | |\n|        |           17.982        | 14\n|        |                         false\n|        [status:SUCCESS, description:null, refId:null, serviceFee:17.982]\ngroovyx.net.http.HttpResponseDecorator@53fcadf6\n",
+      "time" : {
+        "start" : 1581486216368,
+        "stop" : 1581486216729,
+        "duration" : 361
+      }
+    }, {
+      "uid" : "59afbbe69b08be8c",
+      "status" : "failed",
+      "statusDetails" : "Condition not satisfied:\n\nresponse.responseData[\"serviceFee\"]==expectedCom\n|        |           |             | |\n|        |           17.982        | 14\n|        |                         false\n|        [status:SUCCESS, description:null, refId:null, serviceFee:17.982]\ngroovyx.net.http.HttpResponseDecorator@8da0f08\n",
+      "time" : {
+        "start" : 1581486180789,
+        "stop" : 1581486181286,
+        "duration" : 497
+      }
+    }, {
+      "uid" : "e007c69c9b17d5d4",
+      "status" : "failed",
+      "statusDetails" : "Condition not satisfied:\n\nresponse.responseData[\"serviceFee\"]==expectedCom\n|        |           |             | |\n|        |           17.982        | 14\n|        |                         false\n|        [status:SUCCESS, description:null, refId:null, serviceFee:17.982]\ngroovyx.net.http.HttpResponseDecorator@f575b59\n",
+      "time" : {
+        "start" : 1581485880112,
+        "stop" : 1581485880477,
+        "duration" : 365
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "uid" : "9796baf010e529f7",
+  "name" : "Send Money Commission with Send money with negative case amount=450",
+  "fullName" : "features.AllTxnCommission.Send Money Commission with Send money with negative case amount=450",
+  "historyId" : "57139be361db768b4346cc609d8e216e",
+  "time" : {
+    "start" : 1581498147203,
+    "stop" : 1581498147214,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Status Code: 200 \n\r Status: PASS \n\r Type: Send Money commission  \n\r Date Time: Wed Feb 12 15:02:27 BDT 2020\n\r Actual Commission: 4.0\n\r Expected Commission: 4",
+  "descriptionHtml" : "<p>Status Code: 200</p>\n<p>Status: PASS</p>\n<p>Type: Send Money commission</p>\n<p>Date Time: Wed Feb 12 15:02:27 BDT 2020</p>\n<p>Actual Commission: 4.0</p>\n<p>Expected Commission: 4</p>\n",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features"
+  }, {
+    "name" : "testClass",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "testMethod",
+    "value" : "Send Money Commission with Send money with negative case amount=450"
+  }, {
+    "name" : "suite",
+    "value" : "features.AllTxnCommission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CKN538"
+  }, {
+    "name" : "thread",
+    "value" : "10840@DESKTOP-1CKN538.Test worker(11)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  }
+}
